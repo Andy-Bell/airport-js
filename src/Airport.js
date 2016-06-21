@@ -5,5 +5,8 @@ function Airport(name){
 Airport.prototype = {
   land: function(plane){
     plane.setLanded();
+  },
+  clearForTakeoff: function(plane){
+    plane.takeOff();
   }
 };

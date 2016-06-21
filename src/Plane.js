@@ -1,12 +1,13 @@
- function Plane(){
+function Plane(){
    this._isLanded = false
- };
+};
 
- Plane.prototype = {
-   isLanded: function(){
-      return this._isLanded;
-   },
-   setLanded: function(){
-     this._isLanded = true;
-   }
- };
+Plane.prototype = {
+  isLanded: function(){
+    return this._isLanded;
+  },
+  setLanded: function(){
+    this._isLanded = true;
+  },
+  takeOff: function(){}
+};
