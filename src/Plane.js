@@ -9,5 +9,7 @@ Plane.prototype = {
   setLanded: function(){
     this._isLanded = true;
   },
-  takeOff: function(){}
+  takeOff: function(){
+    this._isLanded = false;
+  }
 };
